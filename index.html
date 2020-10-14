@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>App Météo</title>
+
+    <link rel="import" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="app-weather">
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city...">
+        </header>
+    
+        <main>
+            <section class="location">
+                <div class="city">Bordeaux, FR</div>
+            </section>
+            <div class="current">
+                <div class="temp">10<span></span>°C</div>
+                <div class="weather"></div>
+                <div class="hi-low">16°c / 14°c</div>
+            </div>
+        </main>
+    </div>
+    
+    
+
+    <script src="fetch.js"></script>
+
+</body>
+</html>
